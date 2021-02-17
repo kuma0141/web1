@@ -1,0 +1,117 @@
+
+.jumbotron {
+    background-image: url("../images/b-events.png");
+    padding: 6% 2rem !important;
+    margin-bottom: 0;
+}
+
+.jumbotron h1{
+	text-align: center;
+	color: #fff;
+}
+
+/**************  Harvesting   ***********/
+
+.single-head h1{
+	font-weight: bold;
+	padding-top: 7%;
+	text-align: center;
+	color: #244660;
+}
+
+.new-row {
+	margin: 30px auto;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.para {
+	font-size: 20px;
+	text-align: justify;
+}
+
+.event-content{
+        text-align: center;
+        font-size: 3rem;
+        margin-top: 3%;
+        margin-bottom: 3%;
+	color: #244660;
+}
+
+.nav.nav-pills.nav-fill li.nav-item {
+	padding: 0 0 !important;
+	background-color: #244660 !important;
+	font-weight: bold;
+}
+
+.nav.nav-pills.nav-fill li.nav-item a.nav-link{
+	padding: 1.9rem 1rem; 	
+	color: #f9d19c !important;
+	border-radius: 0;
+}
+
+a.nav-link hr{	
+	width: 50px;	
+	margin-top: 4px;
+	margin-bottom: 0px;
+	border-top: 0px;
+	border-bottom: 3px solid #f9d19c;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.nav.nav-pills.nav-fill li.nav-item a.nav-link.active{ 	
+	background-color: #fff !important;
+	color: #244660 !important;
+}
+
+.tab-content .active{
+	background-color: #fff !important;
+	display: block !important;
+}
+
+ @media screen and (max-width:992px) and (min-width:600px){
+    
+    .harvest-img{
+        margin-left: auto;
+        margin-right: auto;
+        display: block !important;
+    }
+    
+    .para{
+        margin-top: 4%;
+    }
+} 
+
+@media screen and (max-width:600px) and (min-width:250px){
+    
+	.nav.nav-pills.nav-fill li.nav-item a.nav-link{
+		padding: 0.8rem 0.5rem;
+		font-size: 10px;
+	}
+	a.nav-link hr{	
+		width: 25px;
+	}
+	.single-head h1{
+		font-size: 1.5rem;
+	}
+	.event-content{
+		text-align: center;
+		font-size: 1rem;
+	}
+    
+    .harvest-img{
+        margin-left: auto;
+        margin-right: auto;
+        display: block !important;
+    }
+    
+	.para {
+		font-size: 15px;
+	}
+	.jumbotron h1{
+		text-align: center;
+		color: #fff;
+		font-size: 1.5rem;
+	}
+}

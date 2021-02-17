@@ -1,0 +1,201 @@
+
+.jumbotron {
+    background-image: url("../images/register.png");
+    padding: 6rem 2rem !important;
+    margin-bottom: 0;
+}
+
+.jumbotron h1{
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+	letter-spacing: 4px;
+}
+
+
+/**************  Harvesting   ***********/
+
+.single-head h1{
+	padding: 20px 0;
+	text-align: center;
+	color: #244660;
+	font-weight: bold;
+	letter-spacing: 4px;
+}
+
+.new-row {
+	margin: 30px auto;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.para {
+	font-size: 18px;
+	text-align: justify;
+	color: #244660;
+}
+
+.readmore-align {
+	margin-left: 35%;
+	margin-top: 2%;
+}
+
+.display-4 {
+
+	font-size: 33px;
+	padding-top: 2%;
+}
+
+.jumbotron {
+
+	margin-top: -40px;
+
+}
+
+
+
+.readmore-align a  {
+	background-color: #6f2428;
+}
+
+
+.event-content{
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 3%;
+    margin-bottom: 3%;
+	color: #244660;
+}
+
+.sub-title {
+	font-family: 'Poppins', sans-serif;
+	font-size: 35px;
+	letter-spacing: 4px;
+	font-weight: bold;
+	text-align: center;
+	color: #244660;
+	margin-top: 7%;
+}
+
+.ev-col {
+	font-family: 'Poppins', sans-serif;
+	color: #244660;
+	font-size: 18px;
+	padding: 5%;
+}
+
+
+
+.nav.nav-pills.nav-fill li.nav-item {
+	padding: 0 0 !important;
+	background-color: #244660 !important;
+	font-weight: bold;
+}
+
+.nav.nav-pills.nav-fill li.nav-item a.nav-link{
+	padding: 1.9rem 1rem; 	
+	color: #f9d19c !important;
+	border-radius: 0;
+}
+
+a.nav-link hr{	
+	width: 50px;	
+	margin-top: 4px;
+	margin-bottom: 0px;
+	border-top: 0px;
+	border-bottom: 3px solid #f9d19c;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.nav.nav-pills.nav-fill li.nav-item a.nav-link.active{ 	
+	background-color: #fff !important;
+	color: #244660 !important;
+}
+
+.tab-content .active{
+	background-color: #fff !important;
+	display: block !important;
+}
+
+.box-title {
+	font-size: 24px;
+	font-weight: 850px;
+	font-family: 'Poppins', sans-serif;
+	color: #244660;
+}
+
+.text-v1 {
+
+        height: auto;
+        background-color: white;
+        background-blend-mode: screen;
+        width: 50%;
+        opacity: 90%;
+        position: relative;
+        left: 100px;
+        margin-top: 20%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        margin-bottom: 350px;
+        padding-left: 4%;
+        padding-right: 4%;
+
+}
+
+.box-cont {
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	color: #244660;
+	
+}
+ @media screen and (max-width:992px) and (min-width:600px){
+    
+    .harvest-img{
+        margin-left: auto;
+        margin-right: auto;
+        display: block !important;
+    }
+    
+    .para{
+        margin-top: 4%;
+    }
+
+    .readmore-align {
+		margin-left: 2%;
+	}
+
+} 
+
+@media screen and (max-width:600px) and (min-width:250px){
+    
+	.nav.nav-pills.nav-fill li.nav-item a.nav-link{
+		padding: 0.8rem 0.5rem;
+		font-size: 10px;
+	}
+	a.nav-link hr{	
+		width: 25px;
+	}
+	.single-head h1{
+		font-size: 1.5rem;
+	}
+	.event-content{
+		text-align: center;
+		font-size: 1rem;
+	}
+    
+    .harvest-img{
+        margin-left: auto;
+        margin-right: auto;
+        display: block !important;
+    }
+    
+	.para {
+		font-size: 15px;
+	}
+	.jumbotron h1{
+		text-align: center;
+		color: #fff;
+		font-size: 1.5rem;
+	}
+}

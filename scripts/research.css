@@ -1,0 +1,113 @@
+
+.jumbotron {
+    background-image: url("../images/b-research.png");
+    padding: 6% 2rem !important;
+    background-size: cover;
+    margin-bottom: 0;
+}
+
+.jumbotron h1{
+	text-align: center;
+	color: #fff;
+}
+
+/**************  Research   ***********/
+
+.single-head h1{
+	padding: 50px 0;
+	text-align: center;
+    color: #995d0e;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.collage{
+    margin-right: 20%;
+    margin-left: 30%;
+    display: block;
+}
+.men-banner {
+    margin: 0 auto;
+    background-color: #f9d19c;
+    text-align: center;
+}
+
+.men-banner img {
+    width: 50%;
+}
+
+.men-banner-text {
+    text-align: center;
+    width: 50%;
+    margin: 50px auto;
+}
+
+.men-banner-text h4 {
+    color: #c38338;
+    text-align: center;
+    line-height: 1;
+}
+
+.men-banner-text h4 span {
+    color: #c38338;
+    font-size: 50px;
+}
+
+hr {
+    border-top: 5px solid #c38338 !important;
+    width: 35%;
+    margin: 0 auto;
+    margin-top: 0px !important;
+    margin-bottom: 35px !important;
+}
+
+
+ @media screen and (max-width:992px) and (min-width:600px){
+    .men-banner-text {
+        width: 70%;
+        margin: 25px auto;
+    }
+    .men-banner-text h4 span {
+        font-size: 40px;
+    }
+    .jumbotron h1{
+		text-align: center;
+		color: #fff;
+		font-size: 1.5rem;
+    }
+    
+    .single-head h1{
+		font-size: 2rem;
+    }
+    
+    hr {
+        border-top: 4px solid #c38338 !important;
+        width: 60%;
+        margin-bottom: 15px !important;
+    }
+ } 
+
+@media screen and (max-width:600px) and (min-width:250px){
+    .men-banner-text h4 span {
+        font-size: 35px;
+    }
+	.jumbotron h1{
+		text-align: center;
+		color: #fff;
+		font-size: 1.5rem;
+    }
+    
+    .single-head h1{
+		font-size: 2rem;
+    }
+    .men-banner-text {
+        width: 80%;
+        margin: 15px auto;
+    }
+    
+    hr {
+        border-top: 4px solid #c38338 !important;
+        width: 70%;
+        margin-bottom: 15px !important;
+    }
+}
